@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSPC.a CMakeFiles/SPC.dir/SPC.cpp.o
+/usr/bin/ranlib libSPC.a

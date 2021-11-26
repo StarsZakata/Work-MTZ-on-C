@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDPS.a CMakeFiles/DPS.dir/DPS.cpp.o
+/usr/bin/ranlib libDPS.a

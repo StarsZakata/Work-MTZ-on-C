@@ -1,0 +1,2 @@
+/usr/bin/ar qc libINC.a CMakeFiles/INC.dir/INC.cpp.o
+/usr/bin/ranlib libINC.a

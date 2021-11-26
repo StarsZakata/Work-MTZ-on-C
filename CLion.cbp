@@ -1,0 +1,2799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CLion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\IEC61850\;CMake Files\IEC61850\BaseClass\;CMake Files\IEC61850\BaseType\;CMake Files\IEC61850\BaseVector\;CMake Files\IEC61850\DO\;CMake Files\IEC61850\DO\Measure\;CMake Files\IEC61850\DO\Measure\CMV\;CMake Files\IEC61850\DO\Measure\DEL\;CMake Files\IEC61850\DO\Measure\HDEL\;CMake Files\IEC61850\DO\Measure\HMV\;CMake Files\IEC61850\DO\Measure\HWYE\;CMake Files\IEC61850\DO\Measure\SAV\;CMake Files\IEC61850\DO\Measure\Sequence\;CMake Files\IEC61850\DO\Measure\MV\;CMake Files\IEC61850\DO\Measure\WYE\;CMake Files\IEC61850\DO\Settings\;CMake Files\IEC61850\DO\Settings\ASG\;CMake Files\IEC61850\DO\Settings\ING\;CMake Files\IEC61850\DO\Settings\Other\;CMake Files\IEC61850\DO\Settings\Other\APC\;CMake Files\IEC61850\DO\Settings\Other\CURVE\;CMake Files\IEC61850\DO\Settings\Other\INFO\;CMake Files\IEC61850\DO\Settings\Other\INFO\CSD\;CMake Files\IEC61850\DO\Settings\Other\INFO\DPL\;CMake Files\IEC61850\DO\Settings\Other\INFO\LPL\;CMake Files\IEC61850\DO\Settings\SPG\;CMake Files\IEC61850\DO\StatusControl\;CMake Files\IEC61850\DO\StatusControl\Status\;CMake Files\IEC61850\DO\StatusControl\Status\BCR\;CMake Files\IEC61850\DO\StatusControl\Status\DPS\;CMake Files\IEC61850\DO\StatusControl\Status\INS\;CMake Files\IEC61850\DO\StatusControl\Status\SEC\;CMake Files\IEC61850\DO\StatusControl\Status\SPS\;CMake Files\IEC61850\DO\StatusControl\Status\ACD\;CMake Files\IEC61850\DO\StatusControl\Status\ACT\;CMake Files\IEC61850\DO\StatusControl\Control\;CMake Files\IEC61850\DO\StatusControl\Control\BSC\;CMake Files\IEC61850\DO\StatusControl\Control\DPC\;CMake Files\IEC61850\DO\StatusControl\Control\INC\;CMake Files\IEC61850\DO\StatusControl\Control\ISC\;CMake Files\IEC61850\DO\StatusControl\Control\SPC\;CMake Files\IEC61850\DO\Totalnform\;CMake Files\IEC61850\DO\Totalnform\AnalogValue\;CMake Files\IEC61850\DO\Totalnform\CtIModels\;CMake Files\IEC61850\DO\Totalnform\Originator\;CMake Files\IEC61850\DO\Totalnform\Point\;CMake Files\IEC61850\DO\Totalnform\PulseConfiguration\;CMake Files\IEC61850\DO\Totalnform\Quality\;CMake Files\IEC61850\DO\Totalnform\RangeConfiguration\;CMake Files\IEC61850\DO\Totalnform\SboClasse\;CMake Files\IEC61850\DO\Totalnform\Unit\;CMake Files\IEC61850\DO\Totalnform\ValWithTrans\;CMake Files\IEC61850\LogicalNodes\;CMake Files\IEC61850\LogicalNodes\CSWI\;CMake Files\IEC61850\LogicalNodes\BaseFuria\;CMake Files\IEC61850\LogicalNodes\LN\;CMake Files\IEC61850\LogicalNodes\MMXU\;CMake Files\IEC61850\LogicalNodes\MSQI\;CMake Files\IEC61850\LogicalNodes\PTOC\;CMake Files\IEC61850\LogicalNodes\XCBR\;CMake Files\IEC61850\LogicalNodes\RDIR\;CMake Files\IEC61850\Parser\;CMake Files\IEC61850\Parser\MySVSB\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sergey/Документы/DATA/CLion"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sergey/Документы/DATA/CLion"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sergey/Документы/DATA/CLion"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion">
+				<Option output="/home/sergey/Документы/DATA/CLion/CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 CLion"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 CLion/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseClass">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/libBaseClass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 BaseClass"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseClass/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/libBaseClass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 BaseClass/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseType">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/libBaseType.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 BaseType"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseType/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/libBaseType.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 BaseType/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseVector">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/libBaseVector.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 BaseVector"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseVector/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/libBaseVector.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 BaseVector/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMV">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/libCMV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 CMV"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMV/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/libCMV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 CMV/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DEL">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/libDEL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 DEL"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DEL/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/libDEL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 DEL/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDEL">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/libHDEL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 HDEL"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDEL/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/libHDEL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 HDEL/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HMV">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/libHMV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 HMV"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HMV/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/libHMV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 HMV/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HWYE">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/libHWYE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 HWYE"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HWYE/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/libHWYE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 HWYE/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAV">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/libSAV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 SAV"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAV/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/libSAV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 SAV/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sequence">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/libSequence.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 Sequence"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sequence/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/libSequence.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 Sequence/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MV">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/libMV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 MV"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MV/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/libMV.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 MV/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WYE">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/libWYE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 WYE"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WYE/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/libWYE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 WYE/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ASG">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/libASG.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 ASG"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ASG/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/libASG.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 ASG/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ING">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/libING.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 ING"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ING/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/libING.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 ING/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/libAPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 APC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/libAPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 APC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CURVE">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/libCURVE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 CURVE"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CURVE/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/libCURVE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 CURVE/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSD">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/libCSD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 CSD"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSD/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/libCSD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 CSD/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPL">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/libDPL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 DPL"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPL/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/libDPL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 DPL/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LPL">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/libLPL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 LPL"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LPL/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/libLPL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 LPL/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPG">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/libSPG.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 SPG"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPG/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/libSPG.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 SPG/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BCR">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/libBCR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 BCR"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BCR/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/libBCR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 BCR/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPS">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/libDPS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 DPS"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPS/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/libDPS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 DPS/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INS">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/libINS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 INS"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INS/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/libINS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 INS/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SEC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/libSEC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 SEC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SEC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/libSEC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 SEC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPS">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/libSPS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 SPS"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPS/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/libSPS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 SPS/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACD">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/libACD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 ACD"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACD/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/libACD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 ACD/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACT">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/libACT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 ACT"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACT/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/libACT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 ACT/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BSC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/libBSC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 BSC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BSC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/libBSC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 BSC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/libDPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 DPC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/libDPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 DPC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/libINC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 INC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/libINC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 INC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/libISC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 ISC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/libISC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 ISC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/libSPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 SPC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/libSPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 SPC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AnalogValue">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/libAnalogValue.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 AnalogValue"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AnalogValue/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/libAnalogValue.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 AnalogValue/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CtIModels">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/libCtIModels.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 CtIModels"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CtIModels/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/libCtIModels.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 CtIModels/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Originator">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/libOriginator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 Originator"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Originator/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/libOriginator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 Originator/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Point">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/libPoint.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 Point"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Point/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/libPoint.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 Point/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PulseConfiguration">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/libPulseConfiguration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 PulseConfiguration"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PulseConfiguration/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/libPulseConfiguration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 PulseConfiguration/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quality">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/libQuality.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 Quality"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quality/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/libQuality.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 Quality/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RangeConfiguration">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/libRangeConfiguration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 RangeConfiguration"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RangeConfiguration/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/libRangeConfiguration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 RangeConfiguration/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SboClasse">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/libSboClasse.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 SboClasse"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SboClasse/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/libSboClasse.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 SboClasse/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unit">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/libUnit.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 Unit"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unit/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/libUnit.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 Unit/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ValWithTrans">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/libValWithTrans.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 ValWithTrans"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ValWithTrans/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/libValWithTrans.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 ValWithTrans/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSWI">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/libCSWI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 CSWI"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSWI/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/libCSWI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 CSWI/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseFuria">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/libBaseFuria.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 BaseFuria"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BaseFuria/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/libBaseFuria.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 BaseFuria/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LN">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/libLN.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 LN"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LN/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/libLN.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 LN/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MMXU">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/libMMXU.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 MMXU"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MMXU/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/libMMXU.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 MMXU/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MSQI">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/libMSQI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 MSQI"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MSQI/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/libMSQI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 MSQI/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PTOC">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/libPTOC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 PTOC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PTOC/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/libPTOC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 PTOC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XCBR">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/libXCBR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 XCBR"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XCBR/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/libXCBR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 XCBR/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RDIR">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/libRDIR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 RDIR"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RDIR/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/libRDIR.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 RDIR/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MySVSB">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/libMySVSB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 MySVSB"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MySVSB/fast">
+				<Option output="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/libMySVSB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/home/sergey/.local/lib/python3.9/site-packages/numpy/core/include"/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/."/>
+					<Add directory="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 MySVSB/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/DATA.cpp">
+			<Option target="BaseClass"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/DATA.h">
+			<Option target="BaseClass"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/BaseType.cpp">
+			<Option target="BaseType"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/BaseType.h">
+			<Option target="BaseType"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Vector.cpp">
+			<Option target="BaseVector"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/Vector.h">
+			<Option target="BaseVector"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/CMV.cpp">
+			<Option target="CMV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/CMV.h">
+			<Option target="CMV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/DEL.cpp">
+			<Option target="DEL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/DEL.h">
+			<Option target="DEL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/HDEL.cpp">
+			<Option target="HDEL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/HDEL.h">
+			<Option target="HDEL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/HMV.cpp">
+			<Option target="HMV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/HMV.h">
+			<Option target="HMV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/HWYE.cpp">
+			<Option target="HWYE"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/HWYE.h">
+			<Option target="HWYE"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/MV.cpp">
+			<Option target="MV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/MV.h">
+			<Option target="MV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/SAV.cpp">
+			<Option target="SAV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/SAV.h">
+			<Option target="SAV"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/SEQ.cpp">
+			<Option target="Sequence"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/SEQ.h">
+			<Option target="Sequence"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/WYE.cpp">
+			<Option target="WYE"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/WYE.h">
+			<Option target="WYE"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/ASG.cpp">
+			<Option target="ASG"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/ASG.h">
+			<Option target="ASG"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/ING.cpp">
+			<Option target="ING"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/ING.h">
+			<Option target="ING"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/APC.cpp">
+			<Option target="APC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/APC.h">
+			<Option target="APC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/CURVE.cpp">
+			<Option target="CURVE"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/CURVE.h">
+			<Option target="CURVE"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/CSD.cpp">
+			<Option target="CSD"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/CSD.h">
+			<Option target="CSD"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/DPL.cpp">
+			<Option target="DPL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/DPL.h">
+			<Option target="DPL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/LPL.cpp">
+			<Option target="LPL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/LPL.h">
+			<Option target="LPL"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/SPG.cpp">
+			<Option target="SPG"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/SPG.h">
+			<Option target="SPG"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/BSC.cpp">
+			<Option target="BSC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/BSC.h">
+			<Option target="BSC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/DPC.cpp">
+			<Option target="DPC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/DPC.h">
+			<Option target="DPC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/INC.cpp">
+			<Option target="INC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/INC.h">
+			<Option target="INC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/ISC.cpp">
+			<Option target="ISC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/ISC.h">
+			<Option target="ISC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/SPC.cpp">
+			<Option target="SPC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/SPC.h">
+			<Option target="SPC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/ACD.cpp">
+			<Option target="ACD"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/ACD.h">
+			<Option target="ACD"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/ACT.cpp">
+			<Option target="ACT"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/ACT.h">
+			<Option target="ACT"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/BCR.cpp">
+			<Option target="BCR"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/BCR.h">
+			<Option target="BCR"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/DPS.cpp">
+			<Option target="DPS"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/DPS.h">
+			<Option target="DPS"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/INS.cpp">
+			<Option target="INS"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/INS.h">
+			<Option target="INS"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/SEC.cpp">
+			<Option target="SEC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/SEC.h">
+			<Option target="SEC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/SPS.cpp">
+			<Option target="SPS"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/SPS.h">
+			<Option target="SPS"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/AnalogValue.cpp">
+			<Option target="AnalogValue"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/AnalogValue.h">
+			<Option target="AnalogValue"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/CtIModels.cpp">
+			<Option target="CtIModels"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/CtIModels.h">
+			<Option target="CtIModels"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Originator.cpp">
+			<Option target="Originator"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/Originator.h">
+			<Option target="Originator"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Point.cpp">
+			<Option target="Point"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/Point.h">
+			<Option target="Point"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/PulseConfiguration.cpp">
+			<Option target="PulseConfiguration"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/PulseConfiguration.h">
+			<Option target="PulseConfiguration"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Quality.cpp">
+			<Option target="Quality"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/Quality.h">
+			<Option target="Quality"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/RangeConfiguration.cpp">
+			<Option target="RangeConfiguration"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/RangeConfiguration.h">
+			<Option target="RangeConfiguration"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/SboClasse.cpp">
+			<Option target="SboClasse"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/SboClasse.h">
+			<Option target="SboClasse"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Unit.cpp">
+			<Option target="Unit"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/Unit.h">
+			<Option target="Unit"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/ValWithTrans.cpp">
+			<Option target="ValWithTrans"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/ValWithTrans.h">
+			<Option target="ValWithTrans"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Furia.cpp">
+			<Option target="BaseFuria"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/Furia.h">
+			<Option target="BaseFuria"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/CSWI.cpp">
+			<Option target="CSWI"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/CSWI.h">
+			<Option target="CSWI"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/LN.cpp">
+			<Option target="LN"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/LN.h">
+			<Option target="LN"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/MMXU.cpp">
+			<Option target="MMXU"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/MMXU.h">
+			<Option target="MMXU"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/MSQI.cpp">
+			<Option target="MSQI"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/MSQI.h">
+			<Option target="MSQI"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/PTOC.cpp">
+			<Option target="PTOC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/PTOC.h">
+			<Option target="PTOC"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/RDIR.cpp">
+			<Option target="RDIR"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/RDIR.h">
+			<Option target="RDIR"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/XCBR.cpp">
+			<Option target="XCBR"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/XCBR.h">
+			<Option target="XCBR"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/MySVSB.cpp">
+			<Option target="MySVSB"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/MySVSB.h">
+			<Option target="MySVSB"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/main.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\BaseClass\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseType/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\BaseType\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/BaseVector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\BaseVector\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/CMV/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\CMV\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/DEL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\DEL\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HDEL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\HDEL\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HMV/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\HMV\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/HWYE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\HWYE\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/SAV/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\SAV\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/Sequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\Sequence\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/MV/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\MV\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Measure/WYE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Measure\WYE\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ASG/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\ASG\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/ING/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\ING\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\Other\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/APC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\Other\APC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/CURVE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\Other\CURVE\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\Other\INFO\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/CSD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\Other\INFO\CSD\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/DPL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\Other\INFO\DPL\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/Other/INFO/LPL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\Other\INFO\LPL\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Settings/SPG/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Settings\SPG\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/BCR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\BCR\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/DPS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\DPS\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/INS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\INS\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SEC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\SEC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/SPS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\SPS\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\ACD\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Status/ACT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Status\ACT\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Control\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/BSC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Control\BSC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/DPC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Control\DPC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Control\INC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/ISC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Control\ISC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/SPC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\StatusControl\Control\SPC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/AnalogValue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\AnalogValue\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/CtIModels/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\CtIModels\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Originator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\Originator\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Point/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\Point\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/PulseConfiguration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\PulseConfiguration\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Quality/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\Quality\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/RangeConfiguration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\RangeConfiguration\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/SboClasse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\SboClasse\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/Unit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\Unit\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/DO/Totalnform/ValWithTrans/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\DO\Totalnform\ValWithTrans\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/CSWI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\CSWI\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/BaseFuria/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\BaseFuria\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\LN\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MMXU/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\MMXU\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/MSQI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\MSQI\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/PTOC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\PTOC\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/XCBR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\XCBR\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/RDIR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\LogicalNodes\RDIR\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\Parser\"/>
+		</Unit>
+		<Unit filename="/home/sergey/Документы/DATA/CLion/IEC61850/Parser/MySVSB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IEC61850\Parser\MySVSB\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

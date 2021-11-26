@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHDEL.a CMakeFiles/HDEL.dir/HDEL.cpp.o
+/usr/bin/ranlib libHDEL.a

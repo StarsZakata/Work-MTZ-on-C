@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDEL.a CMakeFiles/DEL.dir/DEL.cpp.o
+/usr/bin/ranlib libDEL.a

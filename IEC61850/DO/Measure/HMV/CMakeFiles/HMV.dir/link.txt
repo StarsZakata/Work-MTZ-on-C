@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHMV.a CMakeFiles/HMV.dir/HMV.cpp.o
+/usr/bin/ranlib libHMV.a

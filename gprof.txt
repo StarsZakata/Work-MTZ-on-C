@@ -1,0 +1,298 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 66.68      0.02     0.02                             MMXU::process()
+ 33.34      0.03     0.01                             MySVSB::process()
+  0.00      0.03     0.00   720063     0.00     0.00  CMV::getCVal()
+  0.00      0.03     0.00   720021     0.00     0.00  SAV::getInstmag()
+  0.00      0.03     0.00   640382     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .constprop.0]
+  0.00      0.03     0.00   480042     0.00     0.00  Vector::getMag()
+  0.00      0.03     0.00   352648     0.00     0.00  DPC::getCtIVal()
+  0.00      0.03     0.00   320180     0.00     0.00  void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      0.03     0.00   320028     0.00     0.00  ASG::getSetVal()
+  0.00      0.03     0.00   240021     0.00     0.00  ACD::getPhsA()
+  0.00      0.03     0.00   240021     0.00     0.00  ACT::getGeneral()
+  0.00      0.03     0.00   240021     0.00     0.00  ING::getSetVal()
+  0.00      0.03     0.00   240021     0.00     0.00  WYE::getPhsA()
+  0.00      0.03     0.00   240021     0.00     0.00  WYE::getPhsB()
+  0.00      0.03     0.00   240021     0.00     0.00  WYE::getPhsC()
+  0.00      0.03     0.00   160014     0.00     0.00  ACD::getPhsB()
+  0.00      0.03     0.00   160014     0.00     0.00  ACD::getPhsC()
+  0.00      0.03     0.00   160014     0.00     0.00  ACT::getPhsA()
+  0.00      0.03     0.00   128474     0.00     0.00  ACT::getPhsB()
+  0.00      0.03     0.00   128474     0.00     0.00  ACT::getPhsC()
+  0.00      0.03     0.00   111547     0.00     0.00  DPC::getStVal()
+  0.00      0.03     0.00     1540     0.00     0.00  void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)
+  0.00      0.03     0.00      380     0.00     0.00  void std::vector<float, std::allocator<float> >::_M_realloc_insert<float>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float&&)
+  0.00      0.03     0.00      190     0.00     0.00  void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.03     0.00       70     0.00     0.00  WYE::~WYE()
+  0.00      0.03     0.00       40     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)
+  0.00      0.03     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN3CMV7getCValEv
+  0.00      0.03     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN3WYE7getPhsAEv
+  0.00      0.03     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN6Vector6getMagEv
+  0.00      0.03     0.00        1     0.00     0.00  _GLOBAL__sub_I_logicalN
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 33.33% of 0.03 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     66.7    0.02    0.00                 MMXU::process() [1]
+                0.00    0.00  480042/720063      CMV::getCVal() [10]
+                0.00    0.00  480042/640382      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .constprop.0] [12]
+                0.00    0.00  240021/720021      SAV::getInstmag() [11]
+                0.00    0.00  240021/480042      Vector::getMag() [13]
+                0.00    0.00  160014/240021      WYE::getPhsA() [20]
+                0.00    0.00  160014/240021      WYE::getPhsB() [21]
+                0.00    0.00  160014/240021      WYE::getPhsC() [22]
+                0.00    0.00     420/1540        void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [29]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     33.3    0.01    0.00                 MySVSB::process() [2]
+                0.00    0.00  480000/720021      SAV::getInstmag() [11]
+                0.00    0.00  320000/320180      void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [15]
+                0.00    0.00   80000/640382      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .constprop.0] [12]
+                0.00    0.00     420/1540        void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [29]
+-----------------------------------------------
+                0.00    0.00  240021/720063      PTOC::process() [79]
+                0.00    0.00  480042/720063      MMXU::process() [1]
+[10]     0.0    0.00    0.00  720063         CMV::getCVal() [10]
+-----------------------------------------------
+                0.00    0.00  240021/720021      MMXU::process() [1]
+                0.00    0.00  480000/720021      MySVSB::process() [2]
+[11]     0.0    0.00    0.00  720021         SAV::getInstmag() [11]
+-----------------------------------------------
+                0.00    0.00     160/640382      void std::vector<SAV, std::allocator<SAV> >::_M_realloc_insert<SAV const&>(__gnu_cxx::__normal_iterator<SAV*, std::vector<SAV, std::allocator<SAV> > >, SAV const&) [96]
+                0.00    0.00     190/640382      void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [31]
+                0.00    0.00   79990/640382      MySVSB::readComtrade(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [85]
+                0.00    0.00   80000/640382      MySVSB::process() [2]
+                0.00    0.00  480042/640382      MMXU::process() [1]
+[12]     0.0    0.00    0.00  640382         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .constprop.0] [12]
+-----------------------------------------------
+                0.00    0.00  240021/480042      MMXU::process() [1]
+                0.00    0.00  240021/480042      PTOC::process() [79]
+[13]     0.0    0.00    0.00  480042         Vector::getMag() [13]
+-----------------------------------------------
+                0.00    0.00  111547/352648      CSWI::process() [74]
+                0.00    0.00  241101/352648      XCBR::process() [81]
+[14]     0.0    0.00    0.00  352648         DPC::getCtIVal() [14]
+-----------------------------------------------
+                0.00    0.00     180/320180      MySVSB::readComtrade(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [85]
+                0.00    0.00  320000/320180      MySVSB::process() [2]
+[15]     0.0    0.00    0.00  320180         void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [15]
+-----------------------------------------------
+                0.00    0.00  320028/320028      PTOC::process() [79]
+[16]     0.0    0.00    0.00  320028         ASG::getSetVal() [16]
+-----------------------------------------------
+                0.00    0.00  240021/240021      PTOC::process() [79]
+[17]     0.0    0.00    0.00  240021         ACD::getPhsA() [17]
+-----------------------------------------------
+                0.00    0.00   80007/240021      CSWI::process() [74]
+                0.00    0.00  160014/240021      PTOC::process() [79]
+[18]     0.0    0.00    0.00  240021         ACT::getGeneral() [18]
+-----------------------------------------------
+                0.00    0.00  240021/240021      PTOC::process() [79]
+[19]     0.0    0.00    0.00  240021         ING::getSetVal() [19]
+-----------------------------------------------
+                0.00    0.00   80007/240021      PTOC::process() [79]
+                0.00    0.00  160014/240021      MMXU::process() [1]
+[20]     0.0    0.00    0.00  240021         WYE::getPhsA() [20]
+-----------------------------------------------
+                0.00    0.00   80007/240021      PTOC::process() [79]
+                0.00    0.00  160014/240021      MMXU::process() [1]
+[21]     0.0    0.00    0.00  240021         WYE::getPhsB() [21]
+-----------------------------------------------
+                0.00    0.00   80007/240021      PTOC::process() [79]
+                0.00    0.00  160014/240021      MMXU::process() [1]
+[22]     0.0    0.00    0.00  240021         WYE::getPhsC() [22]
+-----------------------------------------------
+                0.00    0.00  160014/160014      PTOC::process() [79]
+[23]     0.0    0.00    0.00  160014         ACD::getPhsB() [23]
+-----------------------------------------------
+                0.00    0.00  160014/160014      PTOC::process() [79]
+[24]     0.0    0.00    0.00  160014         ACD::getPhsC() [24]
+-----------------------------------------------
+                0.00    0.00  160014/160014      PTOC::process() [79]
+[25]     0.0    0.00    0.00  160014         ACT::getPhsA() [25]
+-----------------------------------------------
+                0.00    0.00  128474/128474      PTOC::process() [79]
+[26]     0.0    0.00    0.00  128474         ACT::getPhsB() [26]
+-----------------------------------------------
+                0.00    0.00  128474/128474      PTOC::process() [79]
+[27]     0.0    0.00    0.00  128474         ACT::getPhsC() [27]
+-----------------------------------------------
+                0.00    0.00   31540/111547      CSWI::process() [74]
+                0.00    0.00   80007/111547      XCBR::process() [81]
+[28]     0.0    0.00    0.00  111547         DPC::getStVal() [28]
+-----------------------------------------------
+                0.00    0.00     140/1540        CSWI::process() [74]
+                0.00    0.00     140/1540        XCBR::process() [81]
+                0.00    0.00     420/1540        MySVSB::process() [2]
+                0.00    0.00     420/1540        MMXU::process() [1]
+                0.00    0.00     420/1540        PTOC::process() [79]
+[29]     0.0    0.00    0.00    1540         void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [29]
+-----------------------------------------------
+                0.00    0.00      60/380         MySVSB::readComtrade(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [85]
+                0.00    0.00     320/380         Furie::Furie() [83]
+[30]     0.0    0.00    0.00     380         void std::vector<float, std::allocator<float> >::_M_realloc_insert<float>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float&&) [30]
+-----------------------------------------------
+                0.00    0.00     190/190         MySVSB::readComtrade(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [85]
+[31]     0.0    0.00    0.00     190         void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [31]
+                0.00    0.00     190/640382      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .constprop.0] [12]
+-----------------------------------------------
+                0.00    0.00      70/70          MMXU::~MMXU() [78]
+[32]     0.0    0.00    0.00      70         WYE::~WYE() [32]
+-----------------------------------------------
+                0.00    0.00      40/40          MySVSB::readComtrade(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [85]
+[33]     0.0    0.00    0.00      40         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [110]
+[34]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN3CMV7getCValEv [34]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [110]
+[35]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN3WYE7getPhsAEv [35]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [110]
+[36]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN6Vector6getMagEv [36]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [110]
+[37]     0.0    0.00    0.00       1         _GLOBAL__sub_I_logicalN [37]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [34] _GLOBAL__sub_I__ZN3CMV7getCValEv [27] ACT::getPhsC() [32] WYE::~WYE()
+  [35] _GLOBAL__sub_I__ZN3WYE7getPhsAEv [16] ASG::getSetVal() [1] MMXU::process()
+  [36] _GLOBAL__sub_I__ZN6Vector6getMagEv [10] CMV::getCVal() [2] MySVSB::process()
+  [37] _GLOBAL__sub_I_logicalN [28] DPC::getStVal()       [13] Vector::getMag()
+  [17] ACD::getPhsA()         [14] DPC::getCtIVal()       [31] void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [23] ACD::getPhsB()         [19] ING::getSetVal()       [15] void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  [24] ACD::getPhsC()         [11] SAV::getInstmag()      [30] void std::vector<float, std::allocator<float> >::_M_realloc_insert<float>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float&&)
+  [18] ACT::getGeneral()      [20] WYE::getPhsA()         [29] void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)
+  [25] ACT::getPhsA()         [21] WYE::getPhsB()         [33] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)
+  [26] ACT::getPhsB()         [22] WYE::getPhsC()         [12] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .constprop.0]

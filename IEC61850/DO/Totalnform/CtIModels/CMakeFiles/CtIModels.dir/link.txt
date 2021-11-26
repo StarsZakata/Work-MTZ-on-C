@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCtIModels.a CMakeFiles/CtIModels.dir/CtIModels.cpp.o
+/usr/bin/ranlib libCtIModels.a

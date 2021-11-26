@@ -1,0 +1,2 @@
+/usr/bin/ar qc libQuality.a CMakeFiles/Quality.dir/Quality.cpp.o
+/usr/bin/ranlib libQuality.a

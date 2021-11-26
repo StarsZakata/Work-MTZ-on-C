@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMSQI.a CMakeFiles/MSQI.dir/MSQI.cpp.o
+/usr/bin/ranlib libMSQI.a

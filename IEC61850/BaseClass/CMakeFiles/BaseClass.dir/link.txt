@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBaseClass.a CMakeFiles/BaseClass.dir/DATA.cpp.o
+/usr/bin/ranlib libBaseClass.a

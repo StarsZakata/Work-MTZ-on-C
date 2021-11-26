@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUnit.a CMakeFiles/Unit.dir/Unit.cpp.o
+/usr/bin/ranlib libUnit.a

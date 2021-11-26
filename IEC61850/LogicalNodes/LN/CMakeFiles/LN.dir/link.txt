@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLN.a CMakeFiles/LN.dir/LN.cpp.o
+/usr/bin/ranlib libLN.a

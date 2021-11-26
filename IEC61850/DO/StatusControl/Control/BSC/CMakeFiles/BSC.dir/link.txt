@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBSC.a CMakeFiles/BSC.dir/BSC.cpp.o
+/usr/bin/ranlib libBSC.a

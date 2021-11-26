@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAnalogValue.a CMakeFiles/AnalogValue.dir/AnalogValue.cpp.o
+/usr/bin/ranlib libAnalogValue.a

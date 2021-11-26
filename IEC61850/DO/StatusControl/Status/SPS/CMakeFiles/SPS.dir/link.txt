@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSPS.a CMakeFiles/SPS.dir/SPS.cpp.o
+/usr/bin/ranlib libSPS.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libValWithTrans.a CMakeFiles/ValWithTrans.dir/ValWithTrans.cpp.o
+/usr/bin/ranlib libValWithTrans.a

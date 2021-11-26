@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/INC.cpp
+INC.h
+/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/INC.h
+
+/home/sergey/Документы/DATA/CLion/IEC61850/DO/StatusControl/Control/INC/INC.h
+DATA.h
+-
+BaseType.h
+-
+
+IEC61850/BaseClass/DATA.h
+string
+IEC61850/BaseClass/string
+
+IEC61850/BaseType/BaseType.h
+DATA.h
+-
+cstddef
+-
+

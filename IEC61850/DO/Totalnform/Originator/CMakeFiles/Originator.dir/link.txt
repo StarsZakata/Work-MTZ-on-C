@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOriginator.a CMakeFiles/Originator.dir/Originator.cpp.o
+/usr/bin/ranlib libOriginator.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSPG.a CMakeFiles/SPG.dir/SPG.cpp.o
+/usr/bin/ranlib libSPG.a

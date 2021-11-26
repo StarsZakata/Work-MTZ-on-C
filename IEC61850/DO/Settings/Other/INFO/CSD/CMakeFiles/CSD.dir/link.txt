@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCSD.a CMakeFiles/CSD.dir/CSD.cpp.o
+/usr/bin/ranlib libCSD.a

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/LN.cpp
+LN.h
+/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/LN.h
+
+/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/LN.h
+string
+/home/sergey/Документы/DATA/CLion/IEC61850/LogicalNodes/LN/string
+

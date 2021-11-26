@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBCR.a CMakeFiles/BCR.dir/BCR.cpp.o
+/usr/bin/ranlib libBCR.a

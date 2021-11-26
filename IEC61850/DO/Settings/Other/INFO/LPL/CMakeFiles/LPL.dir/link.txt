@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLPL.a CMakeFiles/LPL.dir/LPL.cpp.o
+/usr/bin/ranlib libLPL.a

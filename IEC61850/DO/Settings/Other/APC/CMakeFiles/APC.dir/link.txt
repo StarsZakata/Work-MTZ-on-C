@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAPC.a CMakeFiles/APC.dir/APC.cpp.o
+/usr/bin/ranlib libAPC.a

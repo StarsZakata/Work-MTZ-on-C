@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/DATA.cpp
+DATA.h
+/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/DATA.h
+
+/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/DATA.h
+string
+/home/sergey/Документы/DATA/CLion/IEC61850/BaseClass/string
+

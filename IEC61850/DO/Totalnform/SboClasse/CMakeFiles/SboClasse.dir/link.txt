@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSboClasse.a CMakeFiles/SboClasse.dir/SboClasse.cpp.o
+/usr/bin/ranlib libSboClasse.a

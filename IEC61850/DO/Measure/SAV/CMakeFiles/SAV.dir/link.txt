@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSAV.a CMakeFiles/SAV.dir/SAV.cpp.o
+/usr/bin/ranlib libSAV.a

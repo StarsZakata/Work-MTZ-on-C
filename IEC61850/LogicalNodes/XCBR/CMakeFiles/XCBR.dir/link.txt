@@ -1,0 +1,2 @@
+/usr/bin/ar qc libXCBR.a CMakeFiles/XCBR.dir/XCBR.cpp.o
+/usr/bin/ranlib libXCBR.a

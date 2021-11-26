@@ -1,0 +1,9 @@
+IEC61850/LogicalNodes/BaseFuria/Furia.h:39:5: warning: Member variable 'Furie::bufferX' is not initialized in the constructor. [uninitMemberVar]
+    Furie(){
+    ^
+IEC61850/LogicalNodes/BaseFuria/Furia.h:39:5: warning: Member variable 'Furie::bufferY' is not initialized in the constructor. [uninitMemberVar]
+    Furie(){
+    ^
+matplotlib-cpp/matplotlibcpp.h:166:5: warning: Member variable '_interpreter::s_python_function_imshow' is not initialized in the constructor. [uninitMemberVarPrivate]
+    _interpreter() {
+    ^

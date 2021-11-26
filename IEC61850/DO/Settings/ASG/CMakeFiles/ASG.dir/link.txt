@@ -1,0 +1,2 @@
+/usr/bin/ar qc libASG.a CMakeFiles/ASG.dir/ASG.cpp.o
+/usr/bin/ranlib libASG.a

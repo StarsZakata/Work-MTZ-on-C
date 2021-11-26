@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMySVSB.a CMakeFiles/MySVSB.dir/MySVSB.cpp.o
+/usr/bin/ranlib libMySVSB.a

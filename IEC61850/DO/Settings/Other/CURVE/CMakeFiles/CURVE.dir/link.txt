@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCURVE.a CMakeFiles/CURVE.dir/CURVE.cpp.o
+/usr/bin/ranlib libCURVE.a

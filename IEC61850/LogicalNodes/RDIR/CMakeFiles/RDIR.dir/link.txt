@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRDIR.a CMakeFiles/RDIR.dir/RDIR.cpp.o
+/usr/bin/ranlib libRDIR.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libING.a CMakeFiles/ING.dir/ING.cpp.o
+/usr/bin/ranlib libING.a

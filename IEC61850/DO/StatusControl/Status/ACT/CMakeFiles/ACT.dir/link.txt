@@ -1,0 +1,2 @@
+/usr/bin/ar qc libACT.a CMakeFiles/ACT.dir/ACT.cpp.o
+/usr/bin/ranlib libACT.a

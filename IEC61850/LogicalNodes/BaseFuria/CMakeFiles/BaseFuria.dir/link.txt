@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBaseFuria.a CMakeFiles/BaseFuria.dir/Furia.cpp.o
+/usr/bin/ranlib libBaseFuria.a

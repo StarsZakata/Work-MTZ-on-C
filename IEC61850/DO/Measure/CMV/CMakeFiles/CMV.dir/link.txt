@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCMV.a CMakeFiles/CMV.dir/CMV.cpp.o
+/usr/bin/ranlib libCMV.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDPL.a CMakeFiles/DPL.dir/DPL.cpp.o
+/usr/bin/ranlib libDPL.a

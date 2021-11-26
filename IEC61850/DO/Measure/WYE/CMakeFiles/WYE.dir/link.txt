@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWYE.a CMakeFiles/WYE.dir/WYE.cpp.o
+/usr/bin/ranlib libWYE.a

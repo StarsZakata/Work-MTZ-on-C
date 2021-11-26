@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPTOC.a CMakeFiles/PTOC.dir/PTOC.cpp.o
+/usr/bin/ranlib libPTOC.a

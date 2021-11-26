@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPulseConfiguration.a CMakeFiles/PulseConfiguration.dir/PulseConfiguration.cpp.o
+/usr/bin/ranlib libPulseConfiguration.a

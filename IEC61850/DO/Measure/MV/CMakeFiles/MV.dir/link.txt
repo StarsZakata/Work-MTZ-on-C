@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMV.a CMakeFiles/MV.dir/MV.cpp.o
+/usr/bin/ranlib libMV.a

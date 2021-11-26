@@ -1,0 +1,2 @@
+/usr/bin/ar qc libACD.a CMakeFiles/ACD.dir/ACD.cpp.o
+/usr/bin/ranlib libACD.a

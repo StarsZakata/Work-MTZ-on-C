@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBaseType.a CMakeFiles/BaseType.dir/BaseType.cpp.o
+/usr/bin/ranlib libBaseType.a

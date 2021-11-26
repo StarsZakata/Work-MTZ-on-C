@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHWYE.a CMakeFiles/HWYE.dir/HWYE.cpp.o
+/usr/bin/ranlib libHWYE.a

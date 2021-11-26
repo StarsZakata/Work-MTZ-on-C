@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMMXU.a CMakeFiles/MMXU.dir/MMXU.cpp.o
+/usr/bin/ranlib libMMXU.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSEC.a CMakeFiles/SEC.dir/SEC.cpp.o
+/usr/bin/ranlib libSEC.a

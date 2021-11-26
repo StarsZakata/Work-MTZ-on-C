@@ -1,0 +1,2 @@
+/usr/bin/ar qc libISC.a CMakeFiles/ISC.dir/ISC.cpp.o
+/usr/bin/ranlib libISC.a
